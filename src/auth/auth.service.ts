@@ -10,8 +10,8 @@ import * as bcrypt from 'bcryptjs';
 
 import { JwtService } from '@nestjs/jwt';
 
-import LoginDto from './dtos/request/login.dto';
-import RegisterDto from './dtos/request/register.dto';
+import LoginDto from './dto/request/login.dto';
+import RegisterDto from './dto/request/register.dto';
 
 import { UserService } from 'src/user/user.service';
 
