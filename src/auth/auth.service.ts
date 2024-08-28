@@ -69,6 +69,6 @@ export class AuthService {
       password: hashed,
     });
 
-    return user;
+    return { user };
   }
 }
